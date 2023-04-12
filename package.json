@@ -1,0 +1,23 @@
+{
+  "name": "dancewebsite",
+  "version": "1.0.0",
+  "description": "This is a website for popular dance academy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Manish",
+    "bhai"
+  ],
+  "author": "Manish bhai",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "netlify-lambda": "^2.0.16",
+    "pug": "^3.0.2",
+    "serverless-http": "^3.2.0"
+  }
+}

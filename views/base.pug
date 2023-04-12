@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title Manish's Dance Academy
+    block scripts
+        script(src='/static/index.js')
+    block style
+        style
+            include ../static/style.css
+  body 
+    nav#navbar.top 
+        ul 
+            h3 MDA
+            li #[a(href="/") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/services") Services]
+            li #[a(href="/classInfo") Class Info]
+            li #[a(href="/contact") Contact Us]
+    
+    block content
+    footer#footer 
+      | Copyright © 2023 ManishDanceAcademy | All rights reserved
